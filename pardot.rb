@@ -25,12 +25,13 @@ def additive_checker(num)
 end
 
 # To test a secret method, write the method below. I've included some of the tests I ran.  
-# Make sure that the secret method you wish to check is uncommented. 
-# Run this Ruby file from the command-line and include the number argument.  
+# Make sure that only the secret method you wish to check is uncommented. 
+# Run this Ruby file from the command-line and include the number argument (e.g. "ruby pardot.rb 10").
+# Note that the additive_checker method returns a boolean and does not print a 'true' or 'false' string.   
 
-# def secret (num)
-# 	num
-# end
+def secret (num)
+	num
+end
 
 # def secret (num)
 # 	(num - 1)
@@ -38,6 +39,14 @@ end
 
 # def secret (num)
 # 	(num * 7)
+# end
+
+# def secret (num)
+# 	0
+# end
+
+# def secret (num)
+# 	(num - Math::PI)
 # end
 
 #Calling the additive_checker method with the command-line argument.
