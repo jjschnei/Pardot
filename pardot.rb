@@ -1,5 +1,5 @@
 #Sets the command-line argument to a variable called 'input_integer'
-input_integer = ARGV[0].to_i
+input_integer = ARGV[0].to_i 
 
 #The prime_num_generator returns an array of the prime numbers less than the argument
 def prime_num_generator(num)
@@ -29,9 +29,9 @@ end
 # Run this Ruby file from the command-line and include the number argument (e.g. "ruby pardot.rb 10").
 # Note that the additive_checker method returns a boolean and does not print a 'true' or 'false' string.   
 
-def secret (num)
-	num
-end
+# def secret (num)
+# 	num
+# end
 
 # def secret (num)
 # 	(num - 1)
